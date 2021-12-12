@@ -11,6 +11,12 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
+#gem 'stock_quote'
+gem "stock_quote", '~> 3.0.0'
+gem 'json', '~> 2.6', '>= 2.6.1'
+gem 'rest-client', '~> 2.0.2'
+
+
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
